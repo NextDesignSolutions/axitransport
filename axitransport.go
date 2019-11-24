@@ -18,8 +18,8 @@ const (
 	WRITE_UNALLOC = true
 	INCR_MODE     = true
 	FIXED_MODE    = false
-	LTTILE_ENDIAN = 0x0
-	BIG_ENDIAN    = 0x1
+	LTTILE_ENDIAN = false
+	BIG_ENDIAN    = true
 )
 
 type AxiTransport interface {
